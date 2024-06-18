@@ -6,7 +6,7 @@
 /*   By: yilin <yilin@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/31 20:57:29 by yilin             #+#    #+#             */
-/*   Updated: 2024/06/03 19:58:14 by yilin            ###   ########.fr       */
+/*   Updated: 2024/06/05 15:34:45 by yilin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 // }
 int	ft_put_hex(unsigned int nb, char xX)
 {
-	int		count;
+	int				count;
 	char			*nb_base;
 	unsigned int	base_len;
 

@@ -6,7 +6,7 @@
 /*   By: yilin <yilin@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/31 22:02:43 by yilin             #+#    #+#             */
-/*   Updated: 2024/06/03 19:54:38 by yilin            ###   ########.fr       */
+/*   Updated: 2024/06/05 15:35:31 by yilin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@
 
 static int	ft_put_ptrhex(unsigned long int nb, char xX)
 {
-	char	*base;
-	int		count;
+	char				*base;
+	int					count;
 	unsigned long int	base_len;
 
 	count = 0;
@@ -38,8 +38,8 @@ static int	ft_put_ptrhex(unsigned long int nb, char xX)
 
 int	ft_put_ptr(void *addr)
 {
+	int					count;
 	unsigned long int	ptr;
-	int	count;
 
 	count = 0;
 	ptr = (unsigned long int)addr;

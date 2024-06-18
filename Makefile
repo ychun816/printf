@@ -6,7 +6,7 @@
 #    By: yilin <yilin@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/28 18:42:21 by yilin             #+#    #+#              #
-#    Updated: 2024/06/03 18:31:05 by yilin            ###   ########.fr        #
+#    Updated: 2024/06/05 15:37:36 by yilin            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,7 @@ all: $(NAME)
 
 clean:
 	$(RM) $(OBJS)
-	@echo "$(COLOR_PINKB)CLEAN DONE💦$(COLOR_RESET)"
+	@echo "$(COLOR_PINKB)CLEAN DONE$(COLOR_RESET)"
 
 fclean: clean
 	$(RM) $(NAME)
